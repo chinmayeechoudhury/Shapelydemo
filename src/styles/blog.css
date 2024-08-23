@@ -1,0 +1,258 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+@media screen and (orientation:landscape){
+    header{
+        display: flex;
+        justify-content: center;
+        height: 80px;
+        position: sticky;
+        top: 0px;
+        z-index: 1;
+    }
+    .bi-justify{
+        display: none;
+    }
+    nav{
+        width: 75%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .first-div{
+        background-color: rgb(238,238,238);
+        height: 200px;
+        display: flex;
+        justify-content: center;
+    }
+    .f1-title{
+        width: 75%;
+        display: flex;
+        justify-content: baseline;
+        align-items: center;
+    }
+    .about{
+        font-size: 45px;
+    }
+    .f2{
+        width: 75%;
+    }
+    .first-para{
+        line-height: 30px;
+         color: dimgray;
+          font-size: 22px;
+          
+    }
+    .first-list li{
+        margin-bottom: 10px;
+        font-size: 22px;
+        margin-left: 50px;
+        color: dimgray;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 400px;
+        background-color: #0e1015;
+    }
+    .footer{
+        width: 75%;
+        display: grid;
+        grid-template-columns: 3fr 3fr 3fr 3fr;
+        grid-gap: 100px;
+        color: white;
+    }
+    #copyright{
+        font-size: 20px;
+        text-align: left;
+        margin-top: 100px;
+        color: white;
+    }
+    .title{
+        font-weight: 500;
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+    .title-text{
+        font-size: 20px;
+        color: white;
+    }
+    #social-icon{
+        background-color:#745cf9;
+        padding: 10px;
+        border-radius: 100px;
+        color: white;
+    }
+    #brand-title-foot{
+        font-size: 30px;
+        font-weight: 500;
+        color:#745cf9
+    }
+    .projects{
+        color: white;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .images{
+        height: 90px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 3fr 3fr 3fr 3fr;
+        
+    }
+    .images div{
+        height: 297px;
+    }
+    section{
+        height: 2270px;
+    }
+}
+@media screen and (orientation:portrait){
+    header{
+        height: 80px;
+        overflow: hidden;
+    }
+    nav{
+        height: 80px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .menus{
+        display: none;
+    }
+    .bi-justify{
+        margin-right: 20px;
+        border: unset;
+        background-color: unset;
+        font-size: 25px;
+    }
+    .brandname{
+        margin-left: 20px;
+    }
+    .first-div{
+        background-color: rgb(238,238,238);
+        height: 150px;
+        display: flex;
+    }
+    .f1-title{
+        display: flex;
+        justify-content: baseline;
+        align-items:center;
+        margin-left: 20px;
+    }
+    .about{
+        font-size: 25px;
+    }
+    .first-para{
+        line-height: 30px;
+         color: dimgray;
+          font-size: 22px;
+          padding: 20px;
+          text-align: justify;
+    }
+    .first-list li{
+        margin-bottom: 10px;
+        font-size: 22px;
+        margin-left: 50px;
+        color: dimgray;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        
+        background-color: #0e1015;
+    }
+    .footer{
+        width: 90%;
+        padding-top: 80px;
+        display: grid;
+        grid-template-columns: 6fr 6fr ;
+        grid-gap: 30px;
+        color: white;
+    }
+    #copyright{
+        font-size: 15px;
+        text-align: left;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        color: white;
+    }
+    .title{
+        font-weight: 500;
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+    .title-text{
+        font-size: 15px;
+        color: white;
+    }
+    #social-icon{
+        background-color:#745cf9;
+        padding: 5px;
+        border-radius: 100px;
+        color: white;
+    }
+    #brand-title-foot{
+        font-size: 25px;
+        font-weight: 500;
+        color:#745cf9
+    }
+    .projects{
+        color: white;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .images{
+        width: 100%;
+        overflow: hidden;
+    }
+    
+        
+}
+
+header{
+    background-color: white;
+    border-bottom: 0.5px solid lightgray;
+}
+
+.brandname{
+    font-size: 28px;
+    color: #745cf9;
+}
+.brandname a{
+    text-decoration: unset;
+    color: unset;
+}
+.menus span{
+    margin-left: 50px;
+    font-size: 20px;
+}
+.menus span:hover{
+    color: #745cf9;
+}
+.menus a{
+    text-decoration: unset;
+    color: unset;
+}
+
+.second-div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+    height: fit-content;
+}
+#social-icon:hover{
+    background-color: #8978e6;
+}
